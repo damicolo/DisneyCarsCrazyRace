@@ -1,0 +1,164 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2eventsheet>
+    <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
+    <name>HighScoresEventSheet</name>
+    <events>
+        <variable constant="0" name="HighScoreStoreName" sid="736360694269864" static="0" type="text">DisneyCarsHighScores</variable>
+        <event-block sid="857459473716752">
+            <conditions>
+                <condition id="3" name="On touched object" sid="999423626989346" type="Touch">
+                    <param id="0" name="Object">BackArrowHighScores</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-2" name="Go to layout" sid="1393237904110287" type="System">
+                    <param id="0" name="Layout">WelcomeLayout</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="8752489344675655">
+            <conditions>
+                <condition id="-2" name="On start of layout" sid="6817263959433857" type="System" />
+            </conditions>
+            <actions />
+            <sub-events>
+                <event-block sid="2626254842276674">
+                    <conditions>
+                        <condition id="3" name="Local key exists" sid="6540010340449143" type="WebStorage">
+                            <param id="0" name="Key">HighScoreStoreName</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="11" name="Load" sid="3449996663955549" type="HighScoresArray">
+                            <param id="0" name="JSON">WebStorage.LocalValue(HighScoreStoreName)</param>
+                        </action>
+                        <action id="0" name="Call function" sid="8717207866864447" type="Function">
+                            <param id="0" name="Name">&quot;WriteHighScores&quot;</param>
+                            <param id="1" name="Parameter {n}"></param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="190875207860738">
+                    <conditions>
+                        <condition id="-22" name="Else" sid="393021164159145" type="System" />
+                    </conditions>
+                    <actions>
+                        <action id="0" name="Call function" sid="8185871685040782" type="Function">
+                            <param id="0" name="Name">&quot;SetDefaults&quot;</param>
+                            <param id="1" name="Parameter {n}"></param>
+                        </action>
+                        <action id="0" name="Call function" sid="565693050390001" type="Function">
+                            <param id="0" name="Name">&quot;WriteHighScores&quot;</param>
+                            <param id="1" name="Parameter {n}"></param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-block>
+        <event-block sid="7956989922812385">
+            <conditions>
+                <condition id="0" name="On function" sid="578164781160423" type="Function">
+                    <param id="0" name="Name">&quot;WriteHighScores&quot;</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="0" name="Set text" sid="7190237024354099" type="HighName1">
+                    <param id="0" name="Text">&quot;1 - &quot; &amp;  HighScoresArray.At(0,0)</param>
+                </action>
+                <action id="0" name="Set text" sid="7270630702127133" type="HighName2">
+                    <param id="0" name="Text">&quot;2 - &quot; &amp;  HighScoresArray.At(1,0)</param>
+                </action>
+                <action id="0" name="Set text" sid="5179961994978727" type="HighName3">
+                    <param id="0" name="Text">&quot;3 - &quot; &amp;  HighScoresArray.At(2,0)</param>
+                </action>
+                <action id="0" name="Set text" sid="7132446730712233" type="HighPoints1">
+                    <param id="0" name="Text">HighScoresArray.At(0,1)</param>
+                </action>
+                <action id="0" name="Set text" sid="3844180233507048" type="HighPoints2">
+                    <param id="0" name="Text">HighScoresArray.At(1,1)</param>
+                </action>
+                <action id="0" name="Set text" sid="2058687131971503" type="HighPoints3">
+                    <param id="0" name="Text">HighScoresArray.At(2,1)</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="181957151644942">
+            <conditions>
+                <condition id="0" name="On function" sid="3942017448854545" type="Function">
+                    <param id="0" name="Name">&quot;SetDefaults&quot;</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="3" name="Set at XY" sid="2732090116835075" type="HighScoresArray">
+                    <param id="0" name="X">0</param>
+                    <param id="1" name="Y">0</param>
+                    <param id="2" name="Value">&quot;Lightning&quot;</param>
+                </action>
+                <action id="3" name="Set at XY" sid="9717287266152971" type="HighScoresArray">
+                    <param id="0" name="X">1</param>
+                    <param id="1" name="Y">0</param>
+                    <param id="2" name="Value">&quot;Bernulli&quot;</param>
+                </action>
+                <action id="3" name="Set at XY" sid="4837211288334581" type="HighScoresArray">
+                    <param id="0" name="X">2</param>
+                    <param id="1" name="Y">0</param>
+                    <param id="2" name="Value">&quot;Guido&quot;</param>
+                </action>
+                <action id="3" name="Set at XY" sid="810318724796666" type="HighScoresArray">
+                    <param id="0" name="X">0</param>
+                    <param id="1" name="Y">1</param>
+                    <param id="2" name="Value">150000</param>
+                </action>
+                <action id="3" name="Set at XY" sid="6782487288116753" type="HighScoresArray">
+                    <param id="0" name="X">1</param>
+                    <param id="1" name="Y">1</param>
+                    <param id="2" name="Value">75000</param>
+                </action>
+                <action id="3" name="Set at XY" sid="7222370607335636" type="HighScoresArray">
+                    <param id="0" name="X">2</param>
+                    <param id="1" name="Y">1</param>
+                    <param id="2" name="Value">10000</param>
+                </action>
+                <action id="0" name="Set local value" sid="205102274107957" type="WebStorage">
+                    <param id="0" name="Key">HighScoreStoreName</param>
+                    <param id="1" name="Value">HighScoresArray.AsJSON</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="4862296141204002">
+            <conditions>
+                <condition id="3" name="On touched object" sid="732657046379292" type="Touch">
+                    <param id="0" name="Object">ResetHighScores</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="0" name="Call function" sid="6411684662261958" type="Function">
+                    <param id="0" name="Name">&quot;SetDefaults&quot;</param>
+                    <param id="1" name="Parameter {n}"></param>
+                </action>
+                <action id="0" name="Call function" sid="4250681107318965" type="Function">
+                    <param id="0" name="Name">&quot;WriteHighScores&quot;</param>
+                    <param id="1" name="Parameter {n}"></param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="8258012706297994">
+            <conditions>
+                <condition id="0" name="Is Windows Phone app" sid="7847831693549261" type="WindowsPhone" />
+            </conditions>
+            <actions />
+            <sub-events>
+                <event-block sid="9481172075805579">
+                    <conditions>
+                        <condition id="2" name="On back" sid="1373738289549496" type="WindowsPhone" />
+                    </conditions>
+                    <actions>
+                        <action id="-2" name="Go to layout" sid="215768030593096" type="System">
+                            <param id="0" name="Layout">WelcomeLayout</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-block>
+    </events>
+</c2eventsheet>

@@ -1,0 +1,76 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2eventsheet>
+    <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
+    <name>HelpEventSheet</name>
+    <events>
+        <event-block sid="6175903066304665">
+            <conditions>
+                <condition id="3" name="On touched object" sid="6072982859166881" type="Touch">
+                    <param id="0" name="Object">TitleRateAndReview</param>
+                </condition>
+            </conditions>
+            <actions />
+            <sub-events>
+                <event-block sid="7928871712240302">
+                    <conditions>
+                        <condition id="0" name="Is Windows Phone app" sid="8599418243955" type="WindowsPhone" />
+                    </conditions>
+                    <actions>
+                        <action id="12" name="Rate App" sid="5436709996194763" type="WindowsPhone" />
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-block>
+        <event-block sid="6120904329178361">
+            <conditions>
+                <condition id="-2" name="On start of layout" sid="1970648005938662" type="System" />
+            </conditions>
+            <actions />
+            <sub-events>
+                <event-block sid="325164985525069">
+                    <conditions>
+                        <condition id="0" inverted="1" name="Is Windows Phone app" sid="470786022625101" type="WindowsPhone" />
+                    </conditions>
+                    <actions>
+                        <action id="-15" name="Set visible" sid="3431089449744793" type="TitleRateAndReview">
+                            <param id="0" name="Visibility">0</param>
+                        </action>
+                        <action id="-15" name="Set visible" sid="1561366884905727" type="RateSprite">
+                            <param id="0" name="Visibility">0</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-block>
+        <event-block sid="1419447779403814">
+            <conditions>
+                <condition id="3" name="On touched object" sid="3426643489252369" type="Touch">
+                    <param id="0" name="Object">BackArrowSelectLevel</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-2" name="Go to layout" sid="3956855532292704" type="System">
+                    <param id="0" name="Layout">WelcomeLayout</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="1504682232615218">
+            <conditions>
+                <condition id="0" name="Is Windows Phone app" sid="1882385877950313" type="WindowsPhone" />
+            </conditions>
+            <actions />
+            <sub-events>
+                <event-block sid="1355338238295876">
+                    <conditions>
+                        <condition id="2" name="On back" sid="6516767438603413" type="WindowsPhone" />
+                    </conditions>
+                    <actions>
+                        <action id="-2" name="Go to layout" sid="5762226468958792" type="System">
+                            <param id="0" name="Layout">WelcomeLayout</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-block>
+    </events>
+</c2eventsheet>
