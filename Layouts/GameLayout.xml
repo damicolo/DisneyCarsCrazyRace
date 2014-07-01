@@ -4,8 +4,8 @@
     <sid>2053200136487951</sid>
     <event-sheet>GameEventSheet</event-sheet>
     <size>
-        <width>630</width>
-        <height>378</height>
+        <width>800</width>
+        <height>480</height>
     </size>
     <margins>
         <horizontal>500</horizontal>
@@ -393,8 +393,8 @@
                         <x>16</x>
                         <y>256</y>
                         <z>0</z>
-                        <width>992</width>
-                        <height>224</height>
+                        <width>1100</width>
+                        <height>280</height>
                         <depth>0</depth>
                         <hotspotX>0</hotspotX>
                         <hotspotY>0</hotspotY>
@@ -440,8 +440,8 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>75.912597656</x>
-                        <y>423.034362793</y>
+                        <x>48</x>
+                        <y>528</y>
                         <z>0</z>
                         <width>50</width>
                         <height>50</height>
@@ -474,8 +474,8 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>173.626495361</x>
-                        <y>415.974334717</y>
+                        <x>144</x>
+                        <y>528</y>
                         <z>0</z>
                         <width>40</width>
                         <height>40</height>
@@ -496,8 +496,8 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>592</x>
-                        <y>96</y>
+                        <x>768</x>
+                        <y>224</y>
                         <z>0</z>
                         <width>30</width>
                         <height>30</height>
@@ -523,8 +523,8 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>512</x>
-                        <y>80</y>
+                        <x>688</x>
+                        <y>208</y>
                         <z>0</z>
                         <width>48</width>
                         <height>48</height>
@@ -557,8 +557,8 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>268.855834961</x>
-                        <y>428.466308594</y>
+                        <x>240</x>
+                        <y>528</y>
                         <z>0</z>
                         <width>50</width>
                         <height>50</height>
@@ -591,8 +591,8 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>363.025909424</x>
-                        <y>413.575653076</y>
+                        <x>336</x>
+                        <y>528</y>
                         <z>0</z>
                         <width>48</width>
                         <height>48</height>
@@ -613,8 +613,8 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>592</x>
-                        <y>144</y>
+                        <x>768</x>
+                        <y>272</y>
                         <z>0</z>
                         <width>30.950819016</width>
                         <height>30.967741013</height>
@@ -640,8 +640,8 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>512</x>
-                        <y>128</y>
+                        <x>688</x>
+                        <y>256</y>
                         <z>0</z>
                         <width>48</width>
                         <height>48</height>
@@ -670,8 +670,8 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>64</x>
-                        <y>0</y>
+                        <x>640</x>
+                        <y>144</y>
                         <z>0</z>
                         <width>96</width>
                         <height>80</height>
@@ -692,8 +692,8 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>528</x>
-                        <y>288</y>
+                        <x>704</x>
+                        <y>416</y>
                         <z>0</z>
                         <width>113.25933075</width>
                         <height>94.932579041</height>
@@ -714,8 +714,8 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>528</x>
-                        <y>288</y>
+                        <x>704</x>
+                        <y>416</y>
                         <z>0</z>
                         <width>51.635879517</width>
                         <height>29.7467556</height>
@@ -736,8 +736,8 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>192</x>
-                        <y>32</y>
+                        <x>768</x>
+                        <y>176</y>
                         <z>0</z>
                         <width>48</width>
                         <height>48</height>
@@ -763,8 +763,8 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>474.607177734</x>
-                        <y>318.003845215</y>
+                        <x>640</x>
+                        <y>432</y>
                         <z>0</z>
                         <width>144</width>
                         <height>48</height>
@@ -785,8 +785,8 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>576</x>
-                        <y>208</y>
+                        <x>752</x>
+                        <y>336</y>
                         <z>0</z>
                         <width>71.554176331</width>
                         <height>57.243339539</height>
@@ -795,6 +795,29 @@
                         <hotspotY>0.501567423</hotspotY>
                         <angle>0</angle>
                         <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="Windows8Advertising" uid="220">
+                    <properties>
+                        <application-id>ef4fdc61-4b25-4c2a-aaca-7d92eddbc6a1</application-id>
+                        <ad-unit-id>10803174</ad-unit-id>
+                        <size>728x90</size>
+                        <element-id-optional></element-id-optional>
+                        <initial-visibility>Visible</initial-visibility>
+                        <enabled>Yes</enabled>
+                        <refresh-enabled>Yes</refresh-enabled>
+                    </properties>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>72</x>
+                        <y>0</y>
+                        <z>0</z>
+                        <width>728</width>
+                        <height>90</height>
+                        <depth>0</depth>
+                        <hotspotX>0</hotspotX>
+                        <hotspotY>0</hotspotY>
                     </world>
                 </instance>
             </instances>

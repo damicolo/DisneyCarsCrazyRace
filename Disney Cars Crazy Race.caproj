@@ -24,6 +24,7 @@
         <plugin author="Scirra" id="Touch" version="1">Touch</plugin>
         <plugin author="Zack0Wack0/Scirra" id="WebStorage" version="1">WebStorage</plugin>
         <plugin author="Scirra.com" id="win8" version="1">Windows 8</plugin>
+        <plugin author="Ryan Joy" id="win8advertising" version="1">Windows 8 Advertising</plugin>
         <plugin author="Henry Hoffman" id="windowsphone" version="1">Windows Phone</plugin>
     </used-plugins>
     <used-behaviors>
@@ -39,8 +40,8 @@
         <configuration exporter-descname="HTML5" exporter-id="html5" name="HTML5" />
     </configurations>
     <window-size>
-        <width>630</width>
-        <height>378</height>
+        <width>800</width>
+        <height>480</height>
     </window-size>
     <pixel-rounding>1</pixel-rounding>
     <first-layout>WelcomeLayout</first-layout>
@@ -1014,6 +1015,9 @@
             <instance-variables>
                 <instance-variable name="Letter" sid="602020115957602" type="string" />
             </instance-variables>
+        </object-type>
+        <object-type name="Windows8Advertising" sid="2864985052503139">
+            <plugin id="win8advertising" />
         </object-type>
     </object-folder>
     <families />
