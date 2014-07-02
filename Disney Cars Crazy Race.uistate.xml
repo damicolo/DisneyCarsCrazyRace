@@ -11,8 +11,8 @@ you probably do not want to add any .uistate.xml files to the repository.-->
     </configurations>
     <open-tabs>
         <layout>SaveNameLayout</layout>
-        <layout>GameLayout</layout>
-        <layout active="1">HelpPage</layout>
+        <layout active="1">GameLayout</layout>
+        <layout>HelpPage</layout>
         <layout>SelectLevelLayout</layout>
         <layout>HighScoresLayout</layout>
         <layout>CompletedLayout</layout>

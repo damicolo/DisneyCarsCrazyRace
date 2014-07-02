@@ -1,0 +1,46 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Express 2012 for Windows 8
+Project("{557bee8b-d41b-4e79-93de-2892b4912c03}") = "DisneyCarsCrazyRace", "DisneyCarsCrazyRace.jsproj", "{e23a41ca-adf1-4dc6-9c12-ec1e1a78a7a8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|ARM = Debug|ARM
+		Debug|Any CPU = Debug|Any CPU
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|ARM = Release|ARM
+		Release|Any CPU = Release|Any CPU
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{e23a41ca-adf1-4dc6-9c12-ec1e1a78a7a8}.Debug|ARM.ActiveCfg = Debug|ARM
+		{e23a41ca-adf1-4dc6-9c12-ec1e1a78a7a8}.Debug|ARM.Build.0 = Debug|ARM
+		{e23a41ca-adf1-4dc6-9c12-ec1e1a78a7a8}.Debug|ARM.Deploy.0 = Debug|ARM
+		{e23a41ca-adf1-4dc6-9c12-ec1e1a78a7a8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{e23a41ca-adf1-4dc6-9c12-ec1e1a78a7a8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{e23a41ca-adf1-4dc6-9c12-ec1e1a78a7a8}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{e23a41ca-adf1-4dc6-9c12-ec1e1a78a7a8}.Debug|x64.ActiveCfg = Debug|x64
+		{e23a41ca-adf1-4dc6-9c12-ec1e1a78a7a8}.Debug|x64.Build.0 = Debug|x64
+		{e23a41ca-adf1-4dc6-9c12-ec1e1a78a7a8}.Debug|x64.Deploy.0 = Debug|x64
+		{e23a41ca-adf1-4dc6-9c12-ec1e1a78a7a8}.Debug|x86.ActiveCfg = Debug|x86
+		{e23a41ca-adf1-4dc6-9c12-ec1e1a78a7a8}.Debug|x86.Build.0 = Debug|x86
+		{e23a41ca-adf1-4dc6-9c12-ec1e1a78a7a8}.Debug|x86.Deploy.0 = Debug|x86
+		{e23a41ca-adf1-4dc6-9c12-ec1e1a78a7a8}.Release|ARM.ActiveCfg = Release|ARM
+		{e23a41ca-adf1-4dc6-9c12-ec1e1a78a7a8}.Release|ARM.Build.0 = Release|ARM
+		{e23a41ca-adf1-4dc6-9c12-ec1e1a78a7a8}.Release|ARM.Deploy.0 = Release|ARM
+		{e23a41ca-adf1-4dc6-9c12-ec1e1a78a7a8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{e23a41ca-adf1-4dc6-9c12-ec1e1a78a7a8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{e23a41ca-adf1-4dc6-9c12-ec1e1a78a7a8}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{e23a41ca-adf1-4dc6-9c12-ec1e1a78a7a8}.Release|x64.ActiveCfg = Release|x64
+		{e23a41ca-adf1-4dc6-9c12-ec1e1a78a7a8}.Release|x64.Build.0 = Release|x64
+		{e23a41ca-adf1-4dc6-9c12-ec1e1a78a7a8}.Release|x64.Deploy.0 = Release|x64
+		{e23a41ca-adf1-4dc6-9c12-ec1e1a78a7a8}.Release|x86.ActiveCfg = Release|x86
+		{e23a41ca-adf1-4dc6-9c12-ec1e1a78a7a8}.Release|x86.Build.0 = Release|x86
+		{e23a41ca-adf1-4dc6-9c12-ec1e1a78a7a8}.Release|x86.Deploy.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,128 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|AnyCPU">
+      <Configuration>Debug</Configuration>
+      <Platform>AnyCPU</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|ARM">
+      <Configuration>Debug</Configuration>
+      <Platform>ARM</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x86">
+      <Configuration>Debug</Configuration>
+      <Platform>x86</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|AnyCPU">
+      <Configuration>Release</Configuration>
+      <Platform>AnyCPU</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|ARM">
+      <Configuration>Release</Configuration>
+      <Platform>ARM</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x86">
+      <Configuration>Release</Configuration>
+      <Platform>x86</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>e23a41ca-adf1-4dc6-9c12-ec1e1a78a7a8</ProjectGuid>
+  </PropertyGroup>
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\$(WMSJSProjectDirectory)\Microsoft.VisualStudio.$(WMSJSProject).Default.props" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\$(WMSJSProjectDirectory)\Microsoft.VisualStudio.$(WMSJSProject).props" />
+  <PropertyGroup>
+    <TargetPlatformIdentifier>Windows</TargetPlatformIdentifier>
+    <TargetPlatformVersion>8.0</TargetPlatformVersion>
+    <DefaultLanguage>en-US</DefaultLanguage>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppxManifest Include="package.appxmanifest">
+      <SubType>Designer</SubType>
+    </AppxManifest>
+	<Content Include="index.html" />
+	<Content Include="c2runtime.js" />
+	<Content Include="jquery-2.0.0.min.js" />
+	<Content Include="images\tiledbackgroundgame1.png" />
+	<Content Include="images\block.png" />
+	<Content Include="images\player-sheet0.png" />
+	<Content Include="images\player-sheet1.png" />
+	<Content Include="images\thecup-sheet0.png" />
+	<Content Include="images\jump-sheet0.png" />
+	<Content Include="images\dontuse01-sheet0.png" />
+	<Content Include="images\turtle-sheet0.png" />
+	<Content Include="images\wheel-sheet0.png" />
+	<Content Include="images\gameoverback-sheet0.png" />
+	<Content Include="images\wonbaloon1-sheet0.png" />
+	<Content Include="images\selectlevelback-sheet0.png" />
+	<Content Include="images\sprite-sheet0.png" />
+	<Content Include="images\stopwatch-sheet0.png" />
+	<Content Include="images\tachimeter-sheet0.png" />
+	<Content Include="images\speedthumb-sheet0.png" />
+	<Content Include="images\tiledbackgroundgame2.png" />
+	<Content Include="images\tiledbackgroundgame3.png" />
+	<Content Include="images\tiledbackgroundgame4.png" />
+	<Content Include="images\sprite2-sheet0.png" />
+	<Content Include="images\backarrow-sheet0.png" />
+	<Content Include="images\tiledbackgroundgame5.png" />
+	<Content Include="images\tiledbackgroundgame6.png" />
+	<Content Include="images\tiledbackgroundgame7.png" />
+	<Content Include="images\tiledbackgroundgame8.png" />
+	<Content Include="images\easysprite-sheet0.png" />
+	<Content Include="images\normsprite-sheet0.png" />
+	<Content Include="images\hardsprite-sheet0.png" />
+	<Content Include="images\playerminiature-sheet0.png" />
+	<Content Include="images\playerminiature-sheet1.png" />
+	<Content Include="images\playerminiature-sheet2.png" />
+	<Content Include="images\completedback-sheet0.png" />
+	<Content Include="images\rupe.png" />
+	<Content Include="images\sprite3-sheet0.png" />
+	<Content Include="images\helpsprite-sheet0.png" />
+	<Content Include="images\buygamesprite-sheet0.png" />
+	<Content Include="images\highscoresback-sheet0.png" />
+	<Content Include="images\sprite7-sheet0.png" />
+	<Content Include="images\pistoncupgold-sheet0.png" />
+	<Content Include="images\pistoncupsilver-sheet0.png" />
+	<Content Include="images\pistoncupbronze-sheet0.png" />
+	<Content Include="images\sprite4-sheet0.png" />
+	<Content Include="images\thecup3-sheet0.png" />
+	<Content Include="images\thecup4-sheet0.png" />
+	<Content Include="images\sprite5-sheet0.png" />
+	<Content Include="icon-16.png" />
+	<Content Include="icon-32.png" />
+	<Content Include="icon-114.png" />
+	<Content Include="icon-128.png" />
+	<Content Include="icon-256.png" />
+	<Content Include="loading-logo.png" />
+
+    <Content Include="app-logo.png" />
+    <Content Include="app-smalllogo.png" />
+    <Content Include="app-storelogo.png" />
+    <Content Include="index.html" />
+    <Content Include="splashscreen.png" />
+	<Content Include="about.html" />
+	<Content Include="support.html" />
+	<Content Include="privacy.html" />
+	<Content Include="WindowsStoreProxy.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <SDKReference Include="Microsoft.WinJS.1.0, Version=1.0" />
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\$(WMSJSProjectDirectory)\Microsoft.VisualStudio.$(WMSJSProject).targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

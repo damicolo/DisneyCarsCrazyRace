@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Package xmlns="http://schemas.microsoft.com/appx/2010/manifest">
+  <Identity Name="e23a41ca-adf1-4dc6-9c12-ec1e1a78a7a8" Version="1.0.0.0" />
+  <Properties>
+    <DisplayName>Disney Cars Crazy Race</DisplayName>
+    <Description>Disney Cars Crazy Race</Description>
+    <PublisherDisplayName>Damicolo</PublisherDisplayName>
+    <Logo>app-storelogo.png</Logo>
+  </Properties>
+  <Prerequisites>
+    <OSMinVersion>6.2.0</OSMinVersion>
+    <OSMaxVersionTested>6.2.0</OSMaxVersionTested>
+  </Prerequisites>
+  <Resources>
+    <Resource Language="x-generate" />
+  </Resources>
+  <Applications>
+    <Application Id="App" StartPage="index.html">
+      <VisualElements DisplayName="Disney Cars Crazy Race" Logo="app-logo.png" SmallLogo="app-smalllogo.png" Description="Disney Cars Crazy Race" ForegroundText="light" BackgroundColor="#464646">
+        <DefaultTile ShowName="allLogos" />
+        <SplashScreen Image="splashscreen.png" />
+		
+      </VisualElements>
+    </Application>
+  </Applications>
+  <Capabilities>
+	<Capability Name="internetClient" />
+
+  </Capabilities>
+</Package>
