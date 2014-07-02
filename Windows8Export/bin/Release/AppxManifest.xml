@@ -7,7 +7,7 @@
 
     For more information on package manifest files, see http://go.microsoft.com/fwlink/?LinkID=241727
   -->
-  <Identity Name="65327Damicolo.DisneyCarsCrazyRaceHD" Version="1.0.0.0" Publisher="CN=5A1FFCCB-EFDB-4765-90AB-504BA4BBD8CD" ProcessorArchitecture="neutral" />
+  <Identity Name="65327Damicolo.DisneyCarsCrazyRaceHD" Version="1.0.0.1" Publisher="CN=5A1FFCCB-EFDB-4765-90AB-504BA4BBD8CD" ProcessorArchitecture="neutral" />
   <Properties>
     <DisplayName>Disney Cars Crazy Race HD</DisplayName>
     <Description>Disney Cars Crazy Race</Description>

@@ -3,7 +3,7 @@
     <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
     <name>SaveNameEventSheet</name>
     <events>
-        <event-block collapsed="1" sid="5041785694542864">
+        <event-block sid="5041785694542864">
             <conditions>
                 <condition id="-2" name="On start of layout" sid="4457601258174059" type="System" />
             </conditions>
@@ -13,6 +13,18 @@
                 </action>
             </actions>
             <sub-events>
+                <event-block sid="8078665799257635">
+                    <conditions>
+                        <condition id="10" name="Has product" sid="3516105306757498" type="Windows8">
+                            <param id="0" name="Product ID">product_id</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="2" name="Set visible" sid="2053382958992314" type="Windows8Advertising">
+                            <param id="0" name="Visibility">0</param>
+                        </action>
+                    </actions>
+                </event-block>
                 <event-block sid="57582124202083">
                     <conditions>
                         <condition id="-14" name="Compare variable" sid="8231357766271227" type="System">

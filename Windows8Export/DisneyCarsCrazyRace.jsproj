@@ -44,7 +44,9 @@
     <TargetPlatformIdentifier>Windows</TargetPlatformIdentifier>
     <TargetPlatformVersion>8.0</TargetPlatformVersion>
     <DefaultLanguage>en-US</DefaultLanguage>
-    <PackageCertificateThumbprint>293F79F76AD9D2A3A9FC2F584BFCDC947C01B74C</PackageCertificateThumbprint>
+    <PackageCertificateThumbprint>C01738378C8C83D06E50DC1B63E3809BF7B6A031</PackageCertificateThumbprint>
+    <AppxAutoIncrementPackageRevision>True</AppxAutoIncrementPackageRevision>
+    <PackageCertificateKeyFile>DisneyCarsCrazyRace_StoreKey.pfx</PackageCertificateKeyFile>
   </PropertyGroup>
   <ItemGroup>
     <AppxManifest Include="package.appxmanifest">
@@ -59,6 +61,7 @@
     <Content Include="Assets\Icon310.scale-100.png" />
     <Content Include="Assets\Icon50.png" />
     <Content Include="Assets\Icon620.png" />
+    <None Include="DisneyCarsCrazyRace_StoreKey.pfx" />
     <Content Include="index.html" />
     <Content Include="c2runtime.js" />
     <Content Include="jquery-2.0.0.min.js" />
@@ -115,6 +118,7 @@
     <Content Include="loading-logo.png" />
     <Content Include="index.html" />
     <Content Include="about.html" />
+    <None Include="Package.StoreAssociation.xml" />
     <Content Include="splashscreen.scale-100.png" />
     <Content Include="support.html" />
     <Content Include="privacy.html" />

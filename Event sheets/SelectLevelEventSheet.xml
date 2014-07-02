@@ -19,6 +19,18 @@
                 </action>
             </actions>
             <sub-events>
+                <event-block sid="1441229223582674">
+                    <conditions>
+                        <condition id="10" name="Has product" sid="8339449836526371" type="Windows8">
+                            <param id="0" name="Product ID">product_id</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="2" name="Set visible" sid="155533065868874" type="Windows8Advertising">
+                            <param id="0" name="Visibility">0</param>
+                        </action>
+                    </actions>
+                </event-block>
                 <event-block sid="5120891805633942">
                     <conditions>
                         <condition id="3" name="Local key exists" sid="4655469974970632" type="WebStorage">

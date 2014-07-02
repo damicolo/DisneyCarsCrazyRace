@@ -27,6 +27,18 @@
             </conditions>
             <actions />
             <sub-events>
+                <event-block sid="3486032519379491">
+                    <conditions>
+                        <condition id="10" name="Has product" sid="6166700273158472" type="Windows8">
+                            <param id="0" name="Product ID">product_id</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="2" name="Set visible" sid="4855222820572418" type="Windows8Advertising">
+                            <param id="0" name="Visibility">0</param>
+                        </action>
+                    </actions>
+                </event-block>
                 <event-block sid="325164985525069">
                     <conditions>
                         <condition id="0" inverted="1" name="Is Windows Phone app" sid="470786022625101" type="WindowsPhone" />

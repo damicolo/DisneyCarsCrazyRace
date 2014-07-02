@@ -43,3 +43,7 @@ Icon
 *.backup4
 *.backup5
 *.autosave
+
+*.psd1
+*.appxupload
+*.appx

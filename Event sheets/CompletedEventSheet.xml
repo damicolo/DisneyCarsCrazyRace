@@ -60,6 +60,20 @@
                     <param id="1" name="Value">LevelsArray.AsJSON</param>
                 </action>
             </actions>
+            <sub-events>
+                <event-block sid="5022580229595997">
+                    <conditions>
+                        <condition id="10" name="Has product" sid="7769924278410447" type="Windows8">
+                            <param id="0" name="Product ID">product_id</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="2" name="Set visible" sid="7626318612714055" type="Windows8Advertising">
+                            <param id="0" name="Visibility">0</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
         </event-block>
         <event-block sid="8610420965467151">
             <conditions>

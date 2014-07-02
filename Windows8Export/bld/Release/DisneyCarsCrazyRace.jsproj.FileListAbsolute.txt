@@ -1,0 +1,16 @@
+C:\Users\dcolombo\Documents\GitHub\DisneyCarsCrazyRace\Windows8Export\bin\Release\resources.pri
+C:\Users\dcolombo\Documents\GitHub\DisneyCarsCrazyRace\Windows8Export\bin\Release\AppxManifest.xml
+C:\Users\dcolombo\Documents\GitHub\DisneyCarsCrazyRace\Windows8Export\bin\Release\DisneyCarsCrazyRace.build.appxrecipe
+C:\Users\dcolombo\Documents\GitHub\DisneyCarsCrazyRace\Windows8Export\bin\Release\MicrosoftAdvertising.winmd
+C:\Users\dcolombo\Documents\GitHub\DisneyCarsCrazyRace\Windows8Export\bld\Release\priconfig.xml
+C:\Users\dcolombo\Documents\GitHub\DisneyCarsCrazyRace\Windows8Export\bld\Release\priconfig.xml.intermediate
+C:\Users\dcolombo\Documents\GitHub\DisneyCarsCrazyRace\Windows8Export\bld\Release\layout.resfiles
+C:\Users\dcolombo\Documents\GitHub\DisneyCarsCrazyRace\Windows8Export\bld\Release\layout.resfiles.intermediate
+C:\Users\dcolombo\Documents\GitHub\DisneyCarsCrazyRace\Windows8Export\bld\Release\resources.resfiles
+C:\Users\dcolombo\Documents\GitHub\DisneyCarsCrazyRace\Windows8Export\bld\Release\resources.resfiles.intermediate
+C:\Users\dcolombo\Documents\GitHub\DisneyCarsCrazyRace\Windows8Export\bld\Release\pri.resfiles
+C:\Users\dcolombo\Documents\GitHub\DisneyCarsCrazyRace\Windows8Export\bld\Release\pri.resfiles.intermediate
+C:\Users\dcolombo\Documents\GitHub\DisneyCarsCrazyRace\Windows8Export\bld\Release\qualifiers.txt
+C:\Users\dcolombo\Documents\GitHub\DisneyCarsCrazyRace\Windows8Export\bld\Release\qualifiers.txt.intermediate
+C:\Users\dcolombo\Documents\GitHub\DisneyCarsCrazyRace\Windows8Export\bld\Release\MultipleQualifiersPerDimensionFound.txt
+C:\Users\dcolombo\Documents\GitHub\DisneyCarsCrazyRace\Windows8Export\bld\Release\ProjectArchitectures.txt
