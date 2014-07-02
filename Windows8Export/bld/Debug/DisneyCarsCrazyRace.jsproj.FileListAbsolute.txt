@@ -1,0 +1,16 @@
+C:\Users\dcolombo\Documents\GitHub\DisneyCarsCrazyRace\Windows8Export\bin\Debug\resources.pri
+C:\Users\dcolombo\Documents\GitHub\DisneyCarsCrazyRace\Windows8Export\bin\Debug\AppxManifest.xml
+C:\Users\dcolombo\Documents\GitHub\DisneyCarsCrazyRace\Windows8Export\bld\Debug\priconfig.xml
+C:\Users\dcolombo\Documents\GitHub\DisneyCarsCrazyRace\Windows8Export\bld\Debug\priconfig.xml.intermediate
+C:\Users\dcolombo\Documents\GitHub\DisneyCarsCrazyRace\Windows8Export\bld\Debug\layout.resfiles
+C:\Users\dcolombo\Documents\GitHub\DisneyCarsCrazyRace\Windows8Export\bld\Debug\layout.resfiles.intermediate
+C:\Users\dcolombo\Documents\GitHub\DisneyCarsCrazyRace\Windows8Export\bld\Debug\resources.resfiles
+C:\Users\dcolombo\Documents\GitHub\DisneyCarsCrazyRace\Windows8Export\bld\Debug\resources.resfiles.intermediate
+C:\Users\dcolombo\Documents\GitHub\DisneyCarsCrazyRace\Windows8Export\bld\Debug\pri.resfiles
+C:\Users\dcolombo\Documents\GitHub\DisneyCarsCrazyRace\Windows8Export\bld\Debug\pri.resfiles.intermediate
+C:\Users\dcolombo\Documents\GitHub\DisneyCarsCrazyRace\Windows8Export\bld\Debug\qualifiers.txt
+C:\Users\dcolombo\Documents\GitHub\DisneyCarsCrazyRace\Windows8Export\bld\Debug\qualifiers.txt.intermediate
+C:\Users\dcolombo\Documents\GitHub\DisneyCarsCrazyRace\Windows8Export\bld\Debug\MultipleQualifiersPerDimensionFound.txt
+C:\Users\dcolombo\Documents\GitHub\DisneyCarsCrazyRace\Windows8Export\bld\Debug\ProjectArchitectures.txt
+C:\Users\dcolombo\Documents\GitHub\DisneyCarsCrazyRace\Windows8Export\bin\Debug\DisneyCarsCrazyRace.build.appxrecipe
+C:\Users\dcolombo\Documents\GitHub\DisneyCarsCrazyRace\Windows8Export\bin\Debug\MicrosoftAdvertising.winmd
