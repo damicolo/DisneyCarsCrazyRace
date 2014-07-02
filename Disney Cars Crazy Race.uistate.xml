@@ -11,8 +11,8 @@ you probably do not want to add any .uistate.xml files to the repository.-->
     </configurations>
     <open-tabs>
         <layout>SaveNameLayout</layout>
-        <layout active="1">GameLayout</layout>
-        <layout>HelpPage</layout>
+        <layout>GameLayout</layout>
+        <layout active="1">HelpPage</layout>
         <layout>SelectLevelLayout</layout>
         <layout>HighScoresLayout</layout>
         <layout>CompletedLayout</layout>
@@ -21,6 +21,7 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <event-sheet>SaveNameEventSheet</event-sheet>
         <event-sheet>SelectLevelEventSheet</event-sheet>
         <event-sheet>WelcomeEventSheet</event-sheet>
+        <event-sheet>GameEventSheet</event-sheet>
     </open-tabs>
     <properties>
         <property expanded="1" name="About" />

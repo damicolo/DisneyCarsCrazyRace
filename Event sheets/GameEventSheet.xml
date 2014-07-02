@@ -549,7 +549,7 @@
                         </action>
                         <action id="-9" name="Set value" sid="4794508265071065" type="System">
                             <param id="0" name="Variable">NextBlock</param>
-                            <param id="1" name="Value">Rupe.Width + 20 + random(200)</param>
+                            <param id="1" name="Value">Rupe.Width + 30 + random(230)</param>
                         </action>
                         <action id="-9" name="Set value" sid="3622813733113165" type="System">
                             <param id="0" name="Variable">TheCupChances</param>
