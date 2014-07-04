@@ -38,7 +38,7 @@
                                 </action>
                             </actions>
                         </event-block>
-                        <event-block sid="7650612715962531">
+                        <event-block collapsed="1" sid="7650612715962531">
                             <conditions>
                                 <condition id="0" name="Is Windows 8 app" sid="6192992399018225" type="Windows8" />
                             </conditions>
@@ -79,7 +79,7 @@
                                 </event-block>
                             </sub-events>
                         </event-block>
-                        <event-block sid="3354866994243572">
+                        <event-block collapsed="1" sid="3354866994243572">
                             <conditions>
                                 <condition id="0" name="Is Windows Phone app" sid="7188001722092352" type="WindowsPhone" />
                             </conditions>
@@ -128,6 +128,17 @@
                                     </actions>
                                 </event-block>
                             </sub-events>
+                        </event-block>
+                        <event-block any="1" sid="1783672563466593">
+                            <conditions>
+                                <condition id="0" name="Is Windows 8 app" sid="9362133275309231" type="Windows8" />
+                                <condition id="0" name="Is Windows Phone app" sid="159480720791935" type="WindowsPhone" />
+                            </conditions>
+                            <actions>
+                                <action id="3" name="Set visible" sid="6729699306160975" type="HTML_iFrame_Pode">
+                                    <param id="0" name="Visibility">0</param>
+                                </action>
+                            </actions>
                         </event-block>
                     </sub-events>
                 </event-block>
@@ -464,6 +475,18 @@
             </conditions>
             <actions>
                 <action id="1" name="Quit" sid="3587643152389279" type="WindowsPhone" />
+            </actions>
+        </event-block>
+        <event-block sid="1996846649696696">
+            <conditions>
+                <condition id="17" name="On back button" sid="1448469803938167" type="Browser" />
+            </conditions>
+            <actions>
+                <action id="14" name="Log" sid="4923317491440344" type="Browser">
+                    <param id="0" name="Type">0</param>
+                    <param id="1" name="Message">&quot;------------- Going Back Browser&quot;</param>
+                </action>
+                <action id="1" name="Close" sid="4651076253539255" type="Browser" />
             </actions>
         </event-block>
     </events>

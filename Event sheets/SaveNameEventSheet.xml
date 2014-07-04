@@ -127,6 +127,17 @@
                         </action>
                     </actions>
                 </event-block>
+                <event-block any="1" sid="7923775772652717">
+                    <conditions>
+                        <condition id="0" name="Is Windows 8 app" sid="1592923518342212" type="Windows8" />
+                        <condition id="0" name="Is Windows Phone app" sid="7567994054924948" type="WindowsPhone" />
+                    </conditions>
+                    <actions>
+                        <action id="3" name="Set visible" sid="6248073655103792" type="HTML_iFrame_Pode">
+                            <param id="0" name="Visibility">0</param>
+                        </action>
+                    </actions>
+                </event-block>
             </sub-events>
         </event-block>
         <event-block any="1" collapsed="1" sid="975520756682833">
@@ -345,6 +356,20 @@
             <actions>
                 <action id="0" name="Set text" sid="878299660760103" type="HighScoreTextBox">
                     <param id="0" name="Text">HighScoreTextBox.Text &amp; VKLetter.Letter</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="4284392042103548">
+            <conditions>
+                <condition id="17" name="On back button" sid="6321073804370444" type="Browser" />
+            </conditions>
+            <actions>
+                <action id="14" name="Log" sid="918068610655295" type="Browser">
+                    <param id="0" name="Type">0</param>
+                    <param id="1" name="Message">&quot;------------- Going Back Browser&quot;</param>
+                </action>
+                <action id="-2" name="Go to layout" sid="5668892730783849" type="System">
+                    <param id="0" name="Layout">WelcomeLayout</param>
                 </action>
             </actions>
         </event-block>

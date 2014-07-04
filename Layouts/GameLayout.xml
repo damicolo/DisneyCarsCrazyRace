@@ -820,6 +820,28 @@
                         <hotspotY>0</hotspotY>
                     </world>
                 </instance>
+                <instance type="HTML_iFrame_Pode" uid="230">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <url>http://damicolo1.cloudapp.net/policy/ad.html</url>
+                        <style>border-color:transparent</style>
+                        <html-tag-id>my_iframe</html-tag-id>
+                        <scrolling>Auto</scrolling>
+                    </properties>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>72</x>
+                        <y>0</y>
+                        <z>0</z>
+                        <width>728</width>
+                        <height>90</height>
+                        <depth>0</depth>
+                        <hotspotX>0</hotspotX>
+                        <hotspotY>0</hotspotY>
+                        <angle>0</angle>
+                    </world>
+                </instance>
             </instances>
             <effects />
         </layer>

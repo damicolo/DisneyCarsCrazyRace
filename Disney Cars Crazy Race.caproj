@@ -13,6 +13,7 @@
         <plugin author="Scirra" id="Arr" version="1">Array</plugin>
         <plugin author="Scirra" id="Browser" version="1">Browser</plugin>
         <plugin author="Scirra" id="Function" version="1">Function</plugin>
+        <plugin author="Jesse Johnston, JP Deblonde" id="HTML_iFrame_Pode" version="1.419999957">HTML_iFrame_Pode</plugin>
         <plugin author="Scirra" id="Keyboard" version="1">Keyboard</plugin>
         <plugin author="Leadbolt" id="LeadboltBanner" version="1">LeadboltBanner</plugin>
         <plugin author="Scirra" id="Mouse" version="1">Mouse</plugin>
@@ -1018,6 +1019,9 @@
         </object-type>
         <object-type name="Windows8Advertising" sid="2864985052503139">
             <plugin id="win8advertising" />
+        </object-type>
+        <object-type name="HTML_iFrame_Pode" sid="6269452574339824">
+            <plugin id="HTML_iFrame_Pode" />
         </object-type>
     </object-folder>
     <families />

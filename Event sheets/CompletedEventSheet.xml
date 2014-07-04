@@ -73,6 +73,17 @@
                         </action>
                     </actions>
                 </event-block>
+                <event-block any="1" sid="1347004433147359">
+                    <conditions>
+                        <condition id="0" name="Is Windows 8 app" sid="4294991439540864" type="Windows8" />
+                        <condition id="0" name="Is Windows Phone app" sid="8469631728229019" type="WindowsPhone" />
+                    </conditions>
+                    <actions>
+                        <action id="3" name="Set visible" sid="1725300718885253" type="HTML_iFrame_Pode">
+                            <param id="0" name="Visibility">0</param>
+                        </action>
+                    </actions>
+                </event-block>
             </sub-events>
         </event-block>
         <event-block sid="8610420965467151">
@@ -92,6 +103,20 @@
                     </actions>
                 </event-block>
             </sub-events>
+        </event-block>
+        <event-block sid="6756447639383814">
+            <conditions>
+                <condition id="17" name="On back button" sid="289464215154124" type="Browser" />
+            </conditions>
+            <actions>
+                <action id="14" name="Log" sid="3052772502007684" type="Browser">
+                    <param id="0" name="Type">0</param>
+                    <param id="1" name="Message">&quot;------------- Going Back Browser&quot;</param>
+                </action>
+                <action id="-2" name="Go to layout" sid="1631787237112339" type="System">
+                    <param id="0" name="Layout">WelcomeLayout</param>
+                </action>
+            </actions>
         </event-block>
     </events>
 </c2eventsheet>

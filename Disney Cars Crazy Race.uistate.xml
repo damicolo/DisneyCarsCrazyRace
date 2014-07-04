@@ -10,13 +10,14 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <display name="HTML5" />
     </configurations>
     <open-tabs>
-        <event-sheet>SaveNameEventSheet</event-sheet>
-        <event-sheet>CompletedEventSheet</event-sheet>
-        <event-sheet>GameEventSheet</event-sheet>
-        <event-sheet>HelpEventSheet</event-sheet>
-        <event-sheet>HighScoresEventSheet</event-sheet>
+        <event-sheet>WelcomeEventSheet</event-sheet>
         <event-sheet>SelectLevelEventSheet</event-sheet>
-        <event-sheet active="1">WelcomeEventSheet</event-sheet>
+        <event-sheet>SaveNameEventSheet</event-sheet>
+        <event-sheet>HighScoresEventSheet</event-sheet>
+        <event-sheet>HelpEventSheet</event-sheet>
+        <event-sheet>GameoverEventSheet</event-sheet>
+        <event-sheet>GameEventSheet</event-sheet>
+        <event-sheet active="1">CompletedEventSheet</event-sheet>
     </open-tabs>
     <properties>
         <property expanded="1" name="About" />
